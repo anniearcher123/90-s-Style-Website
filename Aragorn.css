@@ -1,0 +1,36 @@
+.whiteBox {
+    background-color: navy;
+    border: 5px black;
+    text-align: center;
+    border-style: double;
+}
+
+h1 {
+    color: cornsilk;
+    background-color: navy;
+    text-align: center;
+    display: inline;
+    border-radius: 25px;
+    padding: 0.5em;
+    font-family: 'papyrus';
+}
+
+p {
+    color: cornsilk;
+    background-color: navy;
+    display: inline-block;
+    border-radius: 25px;
+    padding: 0.5em;
+    border-style: double;
+    font-family: 'medievalSharp';
+}
+
+.aragornPhoto { 
+    border-style: inset;
+    border-width: 5px;
+    border-color: black;
+}
+
+#heading {
+    border-style: double;
+}

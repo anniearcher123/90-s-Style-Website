@@ -1,0 +1,39 @@
+.whiteBox {
+    background-color: ivory;
+    border: 5px lightgoldenrodyellow;
+    text-align: center;
+    border-style: double;
+    padding: 10px;
+    color: saddlebrown
+}
+
+h1 {
+    color: saddlebrown;
+    background-color: ivory;
+    text-align: center;
+    display: inline;
+    border-radius: 25px;
+    padding: 0.5em;
+    font-family: 'papyrus';
+}
+
+p {
+    color: cornsilk;
+    background-color: darkolivegreen;
+    display: inline-block;
+    border-radius: 25px;
+    padding: 0.5em;
+    border-style: double;
+    font-family: 'medievalSharp';
+}
+
+.gandalfPhoto { 
+    border-style: inset;
+    border-width: 5px;
+    border-color: cornsilk;
+    
+}
+
+#heading {
+    border-style: double;
+}

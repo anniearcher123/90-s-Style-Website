@@ -1,0 +1,37 @@
+.whiteBox {
+    background-color: #1A0D00;
+    border: 5px cornsilk;
+    text-align: center;
+    border-style: double;
+    padding: 10px;
+}
+
+h1 {
+    color: cornsilk;
+    background-color: #1A0D00;
+    text-align: center;
+    display: inline;
+    border-radius: 25px;
+    padding: 0.5em;
+    font-family: 'papyrus';
+}
+
+p {
+    color: cornsilk;
+    background-color: #1A0D00;
+    display: inline-block;
+    border-radius: 25px;
+    padding: 0.5em;
+    border-style: double;
+    font-family: 'medievalSharp';
+}
+
+.legolasPhoto {
+    border-style: inset;
+    border-width: 5px;
+    border-color: cornsilk;
+}
+
+#heading {
+    border-style: double;
+}

@@ -1,0 +1,37 @@
+.whiteBox {
+    background-color: #00001A;
+    border: 5px cornsilk;
+    text-align: center;
+    border-style: double;
+    padding: 10px;
+}
+
+h1 {
+    color: cornsilk;
+    background-color: #00001A;
+    text-align: center;
+    display: inline;
+    border-radius: 25px;
+    padding: 0.5em;
+    font-family: 'papyrus';
+}
+
+p {
+    color: cornsilk;
+    background-color: #00001A;
+    display: inline-block;
+    border-radius: 25px;
+    padding: 0.5em;
+    border-style: double;
+    font-family: 'medievalSharp';
+}
+
+.gimliPhoto {
+    border-style: inset;
+    border-width: 5px;
+    border-color: cornsilk;
+}
+
+#heading {
+    border-style: double;
+}

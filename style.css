@@ -1,0 +1,63 @@
+.mainPage {
+    background-image: url("images/myLastHope3.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 5px solid burlywood ;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.link {
+    text-align: center ;
+   display: block; 
+   margin: 10px;
+   font-family:'gulzar', 'medievalSharp', sans-serif;
+}
+
+.timelineList {
+    display: inline;
+
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+#lotrFont {
+    font-family: 'papyrus', Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-weight: bold;
+    font-family: 'papyrus', 'medievalSharp', 'cursive';
+}
+
+h2 {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#secondaryFont {
+    font-family: 'medievalSharp', 'cursive';
+}
+
+.timeline {
+    font-size: smaller;
+    font-family: 'Helvetica', 'medievalSharp', 'cursive';
+    margin: 10px;
+}
+
+header {
+    text-align: center;
+}
+
+.timelinePhoto {
+    width: 500px;
+    height: auto;
+}
