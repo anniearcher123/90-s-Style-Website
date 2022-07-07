@@ -41,6 +41,8 @@ h1 {
 h2 {
     font-weight: bold;
     text-decoration: underline;
+    font-family: 'papyrus';
+    text-align: center;
 }
 
 #secondaryFont {
@@ -57,7 +59,19 @@ header {
     text-align: center;
 }
 
-.timelinePhoto {
-    width: 500px;
+img {
+    width: 300px;
     height: auto;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: max-content;
+    max-width: fit-content;
 }
