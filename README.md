@@ -10,8 +10,8 @@ This project is the first big assignment that we covered in Digital Crafts. It i
 	
 ## Technologies
 Project is created with:
-* Lorem version: 12.3
-* Ipsum version: 2.33
+* HTML5
+* CSS
 	
 ## Setup
 To run this project, install it locally using npm:
