@@ -1,5 +1,5 @@
 .mainPage {
-    background-image: url("images/myLastHope3.jpeg");
+    background-image: url("images/lotr-banner-5.jpeg ");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -9,25 +9,41 @@
 body {
     background-color: black;
     color: white;
+    justify-content: center;
 }
 
 .link {
     text-align: center ;
-   display: block; 
-   margin: 10px;
-   font-family:'gulzar', 'medievalSharp', sans-serif;
+    display: block; 
+    margin: 15px;
+    font-family:'gulzar', 'medievalSharp', sans-serif;
+    color: white;
 }
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: yellow;
+}
+
 
 .timelineList {
     display: inline;
 
 }
 
-ul {
+.links {
     list-style-type: none;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100vw;
     align-items: center;
 }
+
+
 
 #lotrFont {
     font-family: 'papyrus', Arial, Helvetica, sans-serif;
@@ -53,6 +69,7 @@ h2 {
     font-size: smaller;
     font-family: 'Helvetica', 'medievalSharp', 'cursive';
     margin: 10px;
+    justify-content: center;
 }
 
 header {
@@ -66,12 +83,32 @@ img {
     border: 5px solid white;
 }
 
-.container {
+.timeline-container {
     display: flex;
     flex-direction: column-reverse;
-    align-content: center;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
     height: max-content;
-    max-width: fit-content;
+    width: 100vw;
+    align-items: center;
+}
+
+.content {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.links-info {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100vw;
+    align-items: center;
+}
+
+.links-info li {
+    padding: 15px;
 }
